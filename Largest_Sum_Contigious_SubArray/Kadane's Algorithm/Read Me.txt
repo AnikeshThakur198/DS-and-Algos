@@ -1,0 +1,7 @@
+Integer Class Important Methods in Java:-
+
+1.) static int MAX_VALUE: 
+	A constant holding the maximum value an int can have, 2^31-1.
+
+2.) static int MIN_VALUE:
+	A constant holding the minimum value an int can have, -2^31.
