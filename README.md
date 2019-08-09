@@ -20,7 +20,7 @@ This Repo basically contains various types of Algorithm and DS questions with th
    
  2.) Anagram:
  
-      In Datastructures an Anagram of a string is another string that has same set of characters but are in
+      In Data-structure's an Anagram of a string is another string that has same set of characters but are in
       different order. For example:
       
             str1: "triangle",
