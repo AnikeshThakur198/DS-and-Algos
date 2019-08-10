@@ -15,7 +15,7 @@ This Repo basically contains various types of Algorithm and DS questions with th
                   max_so_far = max_ending_here
       return max_so_far
       
-   This Algorithm is used to find the Largest Sum Possible of a Contigious SubArray in agiven Array.
+      This Algorithm is used to find the Largest Sum Possible of a Contigious SubArray in agiven Array.
    
    
  2.) Anagram:
@@ -26,4 +26,31 @@ This Repo basically contains various types of Algorithm and DS questions with th
             str1: "triangle",
             str2: "integral"
             
-      both str1 and str2 are anagrams of each other.      
+      both str1 and str2 are anagrams of each other.  
+      
+      
+3.) String: 
+      
+      i) Subsequence of a String:
+                  A subsequence is a sequence generated froma string after deleting some characters of string
+                  without changing the order of remaining string characters.
+                  
+                  eg:         String str = "abc"
+                  
+                  all possible subsequence of the String str are:
+                  "", "a", "b", "c", "ab", "bc", "ac", "abc"
+                  
+                  Total number of subsequence of a given String is, 2^n,
+                        where n is the length of the given string.
+                        
+       ii) Subsets of a String:
+                  The subset of a string is the character or the group of characters that are present inside the string.
+                  
+                  eg:         String str = "FUN"
+                  
+                  all possible subsets of the String str are:
+                  "F", "U", "N", "FU", "UN", "FUN"
+                  
+                  Total number of subsets of a given String is, n*(n+1)/2,
+                        where n is the length of the given string.
+            
